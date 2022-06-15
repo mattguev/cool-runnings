@@ -25,7 +25,7 @@ Building these features required access to map data (UBC in my case) in Python u
 - Feature 3 was built by applying a Depth-First Search algorithm to the map data, constrained by the parameters of Features 1 and 2, in addition to a bias toward minimizing the bearing difference (amount of turning) to be done at each vertex.
 
 ## Results
-![alt text](https://github.com/mattguev/cool-runnings/blob/main/image.jpg?raw=true)
+![alt text](https://github.com/mattguev/cool-runnings/blob/main/ubc_map.png?raw=true)
 
 http://localhost:63342/Project3/route_graph_workout.html?_ijt=gq40sp0h6bpjo6qmk65vodkk6i
 
