@@ -1,4 +1,4 @@
-# Runner’s Route Generator
+# Beginner Runner’s Route Generator
 
 ## Motivation
 The idea here was to build a program that beginner road runners could use to plan their speed work routes. The 3 most common types of speed work are:
