@@ -35,7 +35,7 @@ This first scenario presents the final route with no other specifications aside 
 
 ![](https://github.com/mattguev/cool-runnings/blob/main/UBCnaive_5k.JPG?raw=true)
 
-By comparison, this second scenario presents the final route when an additional specification is made to minimize the amount of turns on the path. It is visibly straighter, and therefore easier to reproduce for more consistent training sessions. 
+By comparison, this second scenario below presents the final route when an additional specification is made to minimize the number of sharp turns on the path. It is visibly straighter, and therefore easier to reproduce for more consistent training sessions. 
 
 ![](https://github.com/mattguev/cool-runnings/blob/main/UBCroute_5k.JPG?raw=true)
 
