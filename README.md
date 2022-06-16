@@ -19,13 +19,17 @@ With these factors in mind, the objective was to build a route generator for beg
 3. The route generator would generate the straightest possible route to avoid overwhelming runners with constant directional changes.
 
 ## Engineering
-Building these features required access to map data (UBC in my case) in Python using the OpenStreetMaps API (graph_ubc.gml), as well as the networkx and osmnx libraries to represent that data as a graph. In this representation, each vertex was a location marker and each node was a path (ubc_map.png). Only then was it possible to run the computations and algorithms required to enable each feature. For example:
-- Feature 1 was realized because osmnx contains a function which allows users to specify a point anywhere in the loaded graph using vertex longitude and latitude markers.
-- Feature 2 was realized because networkx and osmnx can compute the total length represented by a set of connected vertices (i.e. a route)
+Building these features required access to map data (UBC in my case) in Python using the OpenStreetMaps API, as well as the NetworkX and OSMnx libraries to represent that data as a graph. In this representation, each vertex was a location marker and each node was a path. 
+
+![](https://github.com/mattguev/cool-runnings/blob/main/Project3/ubc_map.png?raw=true)
+
+Only then was it possible to run the computations and algorithms required to enable each feature. For example:
+- Feature 1 was realized because OSMnx contains a function which allows users to specify a point anywhere in the loaded graph using vertex longitude and latitude markers.
+- Feature 2 was realized because NetworkX and OSMnx can compute the total length represented by a set of connected vertices (i.e. a route)
 - Feature 3 was built by applying a Depth-First Search algorithm to the map data, constrained by the parameters of Features 1 and 2, in addition to a bias toward minimizing the bearing difference (amount of turning) to be done at each vertex.
 
 ## Results and Visualization
-The final visualization--an interactive map--was produced using the Python folium library. Here, users can inspect the route for any unclear directions before their run. It also contains the total elevation gain for the route. A screenshot of the final interactive page is provided below.
+The final visualization--an interactive map--was produced using the Folium library in Python. Here, users can inspect the route for any unclear directions before their run. It also contains the total elevation gain for the route. A screenshot of the final interactive page is provided below.
  
 ![](https://github.com/mattguev/cool-runnings/blob/main/Project3/UBCroute_5k.JPG?raw=true)
 
