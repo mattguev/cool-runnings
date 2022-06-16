@@ -70,7 +70,10 @@ def find_route(start, goal_dist, graph):
             if lensofar >= goal_dist:
                 return gst, clock
 
-            # neighbors
+            # # naive neighbors: no awareness of bearings
+            # neighbors = graph.neighbors(curr)
+            
+            # sophisticated neighbors: minimizing bearing difference
             neighbors = sorted(graph.neighbors(curr),
                                key=lambda x: get_bearing_diff(graph.edges[prev, curr, 0]['bearing'],
                                                               graph.edges[x,curr, 0]['bearing']))
