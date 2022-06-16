@@ -19,9 +19,7 @@ With these factors in mind, the objective was to build a route generator for beg
 3. The route generator would generate the straightest possible route to avoid overwhelming runners with constant directional changes.
 
 ## Engineering
-Building these features required the use of map data in Python (I chose UBC) via the OpenStreetMaps API, as well as the NetworkX and OSMnx libraries to represent that data as a graph. In this representation, each vertex was a location marker and each node was a path. 
-
-![](https://github.com/mattguev/cool-runnings/blob/main/ubc_map.png?raw=true)
+Building these features required the use of map data in Python (I chose UBC) via the OpenStreetMaps API, as well as the NetworkX and OSMnx libraries to represent that data as a graph. In this representation, each vertex was a location marker and each node was a path. ![](https://github.com/mattguev/cool-runnings/blob/main/ubc_map.png?raw=true)
 
 Only then was it possible to run the computations and algorithms required to enable each feature. For example:
 - Feature 1 was realized because OSMnx contains a function which allows users to specify a point anywhere in the loaded graph using vertex longitude and latitude markers.
