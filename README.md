@@ -26,10 +26,16 @@ Building these features required the use of map data in Python via the OpenStree
 Only then was it possible to run the computations and algorithms required to enable each feature. For example:
 - Feature 1 was realized because OSMnx contains a function which allows users to specify a point anywhere in the loaded graph using vertex longitude and latitude markers.
 - Feature 2 was realized because NetworkX and OSMnx can compute the total length represented by a set of connected vertices (i.e. a route)
-- Feature 3 was built by applying a Depth-First Search algorithm to the map data, constrained by the parameters of Features 1 and 2, in addition to a bias toward minimizing the bearing difference (amount of turning) to be done at each vertex.
+- Feature 3 was built by applying a Depth-First Search algorithm to the map data, constrained by the parameters above in addition to a bias toward minimizing the bearing difference (amount of turning) along the way.
 
 ## Results and Visualization
-The final visualization--an interactive map stored as an html file--was produced using the Folium library in Python. Here, users can inspect the route for any unclear directions before their run. It also contains the total elevation gain for the route. A screenshot of the final interactive page is provided below.
- 
+The final visualizations--an interactive map stored as an html file--were produced using the Folium library in Python. Here, users can inspect the route for any unclear directions before their run. It also contains the total elevation gain for the route. Screenshots of the interactive map under two scenarios are presented below:
+
+This first scenario presents the final route with no other specifications aside from the start location, distance, and initial direction. In essence, this represents the typical route that a beginner might find themselves on when they first attempt a 5k. It is full of inefficient twists and turns that make it hard to remember the trail for future training attempts.
+
+![](https://github.com/mattguev/cool-runnings/blob/main/UBCnaive_5k.JPG?raw=true)
+
+By comparison, this second scenario presents the final route when an additional specification is made to minimize the amount of turns on the path. It is visibly straighter, and therefore easier to reproduce for more consistent training sessions. 
+
 ![](https://github.com/mattguev/cool-runnings/blob/main/UBCroute_5k.JPG?raw=true)
 
