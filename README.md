@@ -18,8 +18,8 @@ With these challenges in mind, the objective was to build a route generator for 
 
 3. The route generator would generate the straightest possible route to avoid overwhelming runners with constant directional changes.
 
-## Engineering
-Building these features required the use of map data in Python via the OpenStreetMaps API, as well as the NetworkX and OSMnx libraries to represent that data as a graph. In this representation of the UBC map data I chose, each circle was a location marker (vertex) and each line was a path (node). 
+## Datasets and Engineering
+Building these features required the use of map data in Python via the OpenStreetMaps API, in addition to the NetworkX and OSMnx libraries to represent that data as a graph. In this representation of the UBC map data I chose, each circle was a location marker (vertex) and each line was a path (node). 
 
 ![](https://github.com/mattguev/cool-runnings/blob/main/ubc_map_elevation.png?raw=true)
 
