@@ -25,7 +25,7 @@ Building these features required access to map data (UBC in my case) in Python u
 - Feature 3 was built by applying a Depth-First Search algorithm to the map data, constrained by the parameters of Features 1 and 2, in addition to a bias toward minimizing the bearing difference (amount of turning) to be done at each vertex.
 
 ## Results and Visualization
-The final visualization--an interactive map--was produced using folium. Here, users can inspect the route for any unclear directions before their run. It also contains the total elevation gain for the route.
+The final visualization--an interactive map--was produced using the Python folium library. Here, users can inspect the route for any unclear directions before their run. It also contains the total elevation gain for the route. A screenshot of the final interactive page is provided below.
  
 ![](https://github.com/mattguev/cool-runnings/blob/main/Project3/UBCroute_5k.JPG?raw=true)
 
