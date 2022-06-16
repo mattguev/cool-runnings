@@ -25,7 +25,7 @@ Building these features required access to map data (UBC in my case) in Python u
 - Feature 3 was built by applying a Depth-First Search algorithm to the map data, constrained by the parameters of Features 1 and 2, in addition to a bias toward minimizing the bearing difference (amount of turning) to be done at each vertex.
 
 ## Results and Visualization
-The final visualization--[an interactive map](http://localhost:63342/Project3/route_graph_workout.html?_ijt=o7k4go8fdv18ph44fgp3u6s6h3)--was produced using folium. Here, users can inspect the route for any unclear directions before their run.
+The final visualization--an interactive map--was produced using folium. Here, users can inspect the route for any unclear directions before their run.
  
-![](https://github.com/mattguev/cool-runnings/blob/main/Project3/ubc_map.png?raw=true)
+![](https://github.com/mattguev/cool-runnings/blob/main/Project3/UBCroute_5k.jpg?raw=true)
 
