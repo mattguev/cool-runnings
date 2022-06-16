@@ -27,5 +27,5 @@ Building these features required access to map data (UBC in my case) in Python u
 ## Results and Visualization
 The final visualization--an interactive map--was produced using folium. Here, users can inspect the route for any unclear directions before their run.
  
-![](https://github.com/mattguev/cool-runnings/blob/main/Project3/UBCroute_5k.jpg?raw=true)
+![](https://github.com/mattguev/cool-runnings/blob/main/Project3/UBCroute_5k.JPG?raw=true)
 
