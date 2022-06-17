@@ -1,7 +1,7 @@
 # Beginner Runner’s Route Generator
 
 ## Motivation
-Idea: Build a program that would help beginner road runners achieve better outdoor training sessions. The 3 most common types of training are:
+Idea: Build a program that would help beginner road runners achieve better outdoor training sessions--the 3 most common types being:
 
 1. Fartlek: unstructured runs where periods of faster running are mixed with periods of easy-paced or moderate-paced running.
 
