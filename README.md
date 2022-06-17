@@ -23,11 +23,11 @@ Solution: Build a route generator which would solve these challenges and improve
 3. Generating the straightest possible route to avoid overwhelming runners with constant directional changes.
 
 ## Datasets and Engineering
-Building these features required the use of map data in Python via the OpenStreetMaps API, in addition to the NetworkX and OSMnx libraries to represent that data as a graph. In this representation of the UBC map data I chose, each circle was a location marker (vertex) and each line was a path (node). 
+Building these features required the use of map data in Python via the OpenStreetMaps API, in addition to the NetworkX and OSMnx libraries to represent that data as a graph. This graph of UBC (my chosen location) has a circle for each location marker (vertex) and a line for each path (node). 
 
 ![](https://github.com/mattguev/cool-runnings/blob/main/ubc_map_elevation.png?raw=true)
 
-Only then was it possible to run the computations and algorithms required to enable each feature. For example:
+Only then was it possible to run the computations and algorithms that would enable each feature. For example:
 - Feature 1: OSMnx contains a function which allows users to specify a point anywhere in the loaded graph using vertex longitude and latitude markers.
 - Feature 2: NetworkX and OSMnx can compute the total length represented by a set of connected vertices (i.e. a route)
 - Feature 3: built by applying a Depth-First Search algorithm to the map data, constrained by the parameters above in addition to a bias toward minimizing the bearing difference (amount of turning) along the way.
