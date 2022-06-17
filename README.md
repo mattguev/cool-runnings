@@ -1,7 +1,7 @@
 # Beginner Runner’s Route Generator
 
 ## Motivation
-Idea: Build a program that would help beginner road runners achieve better speed work sessions. The 3 most common types of speed work are:
+Idea: Build a program that would help beginner road runners achieve better outdoor training sessions. The 3 most common types of training are:
 
 1. Fartlek: unstructured runs where periods of faster running are mixed with periods of easy-paced or moderate-paced running.
 
@@ -9,12 +9,12 @@ Idea: Build a program that would help beginner road runners achieve better speed
 
 3. Interval: alternating short bursts of intense activity with longer periods of less intense activity or even rest.
 
-These training methods improve performance by polishing a runners' mechanics and sense of pace. All three require a level of 'flow' which is best achieved by access to a track or treadmill. 
+These methods improve performance by polishing a runners' mechanics and sense of pace. All three require a level of 'flow', which is best achieved by access to a track or treadmill. 
 
 Conflict: Beginners often find themselves training outdoors without convenient access to such tools. As such, they risk spending their entire workout preoccupied with the navigation of unfamiliar terrain. 
 
 ## Audience and Features
-Solution: Build a route generator which would solve these challenges and improve beginner race performance by offering three features:
+Proposed Solution: Build a route generator which would solve these challenges and improve beginner race performance by offering three features:
 
 1. Ability to specify any land-based start point in the world.
 
