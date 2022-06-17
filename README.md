@@ -1,22 +1,24 @@
 # Beginner Runner’s Route Generator
 
 ## Motivation
-The idea here was to build a program that beginner road runners could use to plan their speed work routes. The 3 most common types of speed work are:
+Idea: Build a program that would help beginner road runners achieve better speed work sessions. The 3 most common types of speed work are:
 
 1. Fartlek: unstructured runs where periods of faster running are mixed with periods of easy-paced or moderate-paced running.
 2. Tempo: sustained effort run that builds up the body’s ability to run faster for longer periods of time.
 3. Interval: alternating short bursts of intense activity with longer periods of less intense activity or even rest.
 
-These training methods improve performance by polishing a runners' mechanics and sense of pace. All three require a level of 'flow' which is best achieved by access to a track or treadmill. Yet, beginners often find themselves training outdoors without convenient access to such tools. As such, they risk spending their entire workout preoccupied with the navigation of unfamiliar terrain. 
+These training methods improve performance by polishing a runners' mechanics and sense of pace. All three require a level of 'flow' which is best achieved by access to a track or treadmill. 
+
+Conflict: Beginners often find themselves training outdoors without convenient access to such tools. As such, they risk spending their entire workout preoccupied with the navigation of unfamiliar terrain. 
 
 ## Audience and Features
-With these challenges in mind, the objective was to build a route generator for beginners which would improve race performance by offering three features:
+Solution: Build a route generator which would solve these challenges and improve beginner race performance by offering three features:
 
-1. Runners would be able to specify any land-based start point in the world.
+1. Ability to specify any land-based start point in the world.
 
-2. Runners would be able to specify a general direction and goal distance, but would ideally choose 1 of the 4 most common World Athletics categories (5K, 10K, 21K, 42K).
+2. Ability to specify a general direction and goal distance, (including the 4 most common World Athletics categories: 5K, 10K, 21K, 42K).
 
-3. The route generator would generate the straightest possible route to avoid overwhelming runners with constant directional changes.
+3. Generating the straightest possible route to avoid overwhelming runners with constant directional changes.
 
 ## Datasets and Engineering
 Building these features required the use of map data in Python via the OpenStreetMaps API, in addition to the NetworkX and OSMnx libraries to represent that data as a graph. In this representation of the UBC map data I chose, each circle was a location marker (vertex) and each line was a path (node). 
