@@ -35,11 +35,11 @@ Only then was it possible to run the computations and algorithms that would enab
 ## Results and Visualization
 The final visualizations--an interactive map stored as an html file--were produced using the Folium library in Python. Here, users can inspect the route for any unclear directions before their run. It also contains the total elevation gain for the route. Two versions of the interactive map are presented below:
 
-This first version presents the route with no other specifications aside from the start location, goal distance, and initial direction. In essence, this represents the typical route that a beginner might find themselves on when they first attempt a 5k. It is full of inefficient twists and turns that make it hard to remember the trail for future training attempts.
+Route Ver. 1 (naive): No other specifications aside from the start location, goal distance, and initial direction. In essence, this represents the typical route that a beginner might find themselves on when they first attempt a 5k. It is full of inefficient twists and turns that make it hard to remember the trail for future training attempts.
 
 ![](https://github.com/mattguev/cool-runnings/blob/main/UBCnaive_5k.JPG?raw=true)
 
-By comparison, the version below presents the route when an additional specification is made to minimize the number of sharp turns on the path. It is visibly straighter, and therefore easier to reproduce for more consistent training sessions. 
+Route Ver. 2 (sophisticated): Contains an additional specification to minimize the number of sharp turns on the path. It is visibly straighter, and therefore easier to reproduce for more consistent training sessions. 
 
 ![](https://github.com/mattguev/cool-runnings/blob/main/UBCroute_5k.JPG?raw=true)
 
