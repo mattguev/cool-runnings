@@ -4,7 +4,9 @@
 Idea: Build a program that would help beginner road runners achieve better speed work sessions. The 3 most common types of speed work are:
 
 1. Fartlek: unstructured runs where periods of faster running are mixed with periods of easy-paced or moderate-paced running.
+
 2. Tempo: sustained effort run that builds up the body’s ability to run faster for longer periods of time.
+
 3. Interval: alternating short bursts of intense activity with longer periods of less intense activity or even rest.
 
 These training methods improve performance by polishing a runners' mechanics and sense of pace. All three require a level of 'flow' which is best achieved by access to a track or treadmill. 
