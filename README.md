@@ -14,7 +14,7 @@ These methods improve performance by polishing a runners' mechanics and sense of
 Conflict: Beginners often find themselves training outdoors without convenient access to such tools. As such, they risk spending their entire workout preoccupied with the navigation of unfamiliar terrain. 
 
 ## Audience and Features
-Proposed Solution: Build a route generator which would solve these challenges and improve beginner race performance by offering three features:
+Solution: Build a route generator which would solve these challenges and improve beginner race performance by offering three features:
 
 1. Ability to specify any land-based start point in the world.
 
