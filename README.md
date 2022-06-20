@@ -33,7 +33,7 @@ Only then was it possible to run the computations and algorithms that would enab
 - Feature 3: built by applying a Depth-First Search algorithm to the map data, constrained by the parameters above in addition to a bias toward minimizing the bearing difference (amount of turning) along the way.
 
 ## Results and Visualization
-The final visualizations--an interactive map stored as an html file--were produced using the Folium library in Python. Here, users can inspect the route for any unclear directions before their run. It also contains the total elevation gain for the route. Two versions of the interactive map are presented below:
+The final visualizations--an interactive map stored as an HTML file--were produced using the Folium library in Python. Here, users can inspect the route for any unclear directions before their run. It also contains the total elevation gain for the route. Two versions of the interactive map are presented below:
 
 Route Ver. 1 (naive): No other specifications aside from the start location, goal distance, and initial direction. In essence, this represents the typical route that a beginner might find themselves on when they first attempt a 5k. It is full of inefficient twists and turns that make it hard to remember the trail for future training attempts.
 
