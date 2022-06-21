@@ -23,7 +23,7 @@ Solution: Build a route generator which would solve these challenges and improve
 3. Generating the straightest possible route to avoid overwhelming runners with constant directional changes.
 
 ## Datasets and Engineering
-Building these features required the use of map data in Python via the OpenStreetMaps API, in addition to the NetworkX and OSMnx libraries to represent that data as a graph. This graph of UBC (my chosen location) has a circle for each location marker (vertex) and a line for each path (node). 
+Building these features required the use of map data in Python via the OpenStreetMaps API, in addition to the NetworkX and OSMnx libraries to represent that data as a graph. This graph of UBC (my chosen location) has a circle for each location marker (vertex) and a line for each path (node) connecting those locations. The particular figure below is colored by elevation.
 
 ![](https://github.com/mattguev/cool-runnings/blob/main/ubc_map_elevation.png?raw=true)
 
