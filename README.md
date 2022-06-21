@@ -35,12 +35,12 @@ Only then was it possible to run the computations and algorithms that would enab
 ## Results and Visualization
 The final visualizations--an interactive map stored as an HTML file--were produced using the Folium library in Python. Here, users can inspect the route for any unclear directions before their run. It also contains the total elevation gain for the route. Two versions of the interactive map are presented below:
 
-Route Ver. 1 (naive): No other specifications aside from the start location, goal distance, and initial direction
+#### Route A (naive): No other specifications aside from the start location, goal distance, and initial direction
 ![](https://github.com/mattguev/cool-runnings/blob/main/UBCnaive_5k.JPG?raw=true)
 
-In essence, this route represents the typical path that a beginner might find themselves on when they first attempt a 5k. It is full of inefficient spur-of-the-moment twists and turns that make it hard to recall the trail in future training attempts.
+In essence, this route represents the typical path that a beginner might find themselves on when they first attempt a 5k. It is full of inefficient, spur-of-the-moment turns that interrupt a runner's sense of flow. Furthermore, it is difficult to recall the trail during future training attempts. 
 
-Route Ver. 2 (sophisticated): Contains an additional specification to minimize the number of sharp turns on the path
+#### Route B (sophisticated): Contains an additional specification to minimize the number of sharp turns on the path
 ![](https://github.com/mattguev/cool-runnings/blob/main/UBCroute_5k.JPG?raw=true)
 
-By comparison, this route is visibly straighter because it always chooses the direction with the least deviation relative to the current bearing. As a result, it is easier to reproduce for more consistent training sessions. 
+By comparison, this route is visibly straighter because it always chooses the direction with the least deviation relative to the current bearing. Not only is it easier for runners to staty in a flow state this way, it is also easier for them to reproduce for more consistent training sessions. 
